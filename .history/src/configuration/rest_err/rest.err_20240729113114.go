@@ -5,7 +5,7 @@ import "net/http"
 type RestErr struct {
 	Message string   `json:"message"`
 	Err     string   `json:"error"`
-	Code    int      `json:"code"`
+	Code    int64    `json:"code"`
 	Causes  []Causes `json:"causes"`
 }
 
