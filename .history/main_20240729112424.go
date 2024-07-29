@@ -3,7 +3,6 @@ package main
 import (
 	"log"
 
-	"github.com/biduzilla/go-crud/src/controller/routes"
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 )
